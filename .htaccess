@@ -1,0 +1,27 @@
+RewriteEngine On
+
+
+# Redirect /index to home
+RewriteRule ^index/?$ https://sukammodularkitchen.in/ [R=301,L]
+
+# Redirect /index.php to home
+RewriteCond %{THE_REQUEST} \s/index\.php[\s?] [NC]
+RewriteRule ^index\.php$ https://sukammodularkitchen.in/ [R=301,L]
+# Force HTTPS
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# Redirect .php URLs to extensionless URLs
+RewriteCond %{THE_REQUEST} \s/+(.+?)\.php[\s?] [NC]
+RewriteRule ^ %1 [R=301,L]
+
+# Internally map extensionless URLs to .php files
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^([^/]+)/?$ $1.php [L]
+
+# Home page
+DirectoryIndex index.php
+
+# Custom 404 page
+ErrorDocument 404 /404.php
