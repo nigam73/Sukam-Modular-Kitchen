@@ -8,7 +8,7 @@ A modern and responsive website for **Sukam Modular Kitchen**, showcasing premiu
 
 ## 📌 About
 
-Sukam Modular Kitchen is a professional interior design and modular kitchen company based in Kanpur. This website is designed to provide an elegant user experience while showcasing services, projects, blogs, catalogues, and contact information for potential customers. :contentReference[oaicite:1]{index=1}
+Sukam Modular Kitchen is a professional interior design and modular kitchen company based in Kanpur. This website is designed to provide an elegant user experience while showcasing services, projects, blogs, catalogues, and contact information for potential customers.
 
 ---
 
@@ -82,7 +82,7 @@ http://localhost/Sukam/
 ## 📸 Live Preview
 
 Website:
-https://sukammodularkitchen.in/ :contentReference[oaicite:2]{index=2}
+https://sukammodularkitchen.in/ 
 
 ---
 
@@ -94,7 +94,7 @@ https://sukammodularkitchen.in/ :contentReference[oaicite:2]{index=2}
 
 📞 +91 63931 94453
 
-📧 info@sukaminterior.in :contentReference[oaicite:3]{index=3}
+📧 info@sukaminterior.in 
 
 ---
 
