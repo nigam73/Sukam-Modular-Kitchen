@@ -2,7 +2,7 @@
 
 A modern and responsive website for **Sukam Modular Kitchen**, showcasing premium modular kitchen solutions, interior design services, wardrobes, home renovation, and customized furniture solutions in Kanpur.
 
-🌐 **Live Website:** https://sukammodularkitchen.in/ :contentReference[oaicite:0]{index=0}
+🌐 **Live Website:** https://sukammodularkitchen.in/ 
 
 ---
 
